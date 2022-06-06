@@ -85,6 +85,7 @@ The following table contains the monthly amount of games per status in our compa
 | Feb 2022   | 2134     | 911    | 168   | 5        | 0       | 3218  |
 | Mar 2022   | 2171     | 918    | 161   | 5        | 0       | 3255  |
 | Apr 2022   | 2207     | 924    | 151   | 4        | 0       | 3286  |
+| May 2022   | 2203     | 907    | 141   | 3        | 0       | 3254  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
