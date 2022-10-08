@@ -5,7 +5,7 @@
 * **Make sure you're using the latest RPCS3 build.** We don't provide support for older builds. Make sure you're using the latest build available, as we always pour new improvements into them.
 * **Check if your drivers are up-to-date.** Many issues are simply solved by updating your drivers, mainly GPU. Always make sure your GPU drivers are up-to-date before proceeding.
 * **Check if your System matches RPCS3's requirements.** Assuming your system runs it because it runs other emulators is not enough. Many people simply ignore this step thinking their system matches the requirements and end up wasting their time trying to get it to work. System Requirements are at the beginning of the Quickstart guide.
-* **Pack up your log files.** Copy pasta from the emulator's log window onto a new text file doesn't count, as that's merely a resume from what's happening. Use a compressing tool such as [**7-Zip**](http://www.7-zip.org/) to compress the **RPCS3.log** file to a .7z file **after closing the emulator**. The lo file is located on the same folder as `rpcs3.exe` on Windows, `~/.cache/rpcs3` on Linux and `~/Library/Caches/rpcs3` on macOS.
+* **Pack up your log files.** Copy pasta from the emulator's log window onto a new text file doesn't count, as that's merely a resume from what's happening. Use a compressing tool such as [**7-Zip**](http://www.7-zip.org/) to compress the **RPCS3.log** file to a .7z file **after closing the emulator**. The log file is located on the same folder as `rpcs3.exe` on Windows, `~/.cache/rpcs3` on Linux and `~/Library/Caches/rpcs3` on macOS.
 
 ### Submitting your support request:
 * Choose a place to ask for support:
