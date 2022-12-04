@@ -91,6 +91,7 @@ The following table contains the monthly amount of games per status in our compa
 | Aug 2022   | 2254     | 936    | 119   | 3        | 0       | 3312  |
 | Sep 2022   | 2261     | 939    | 116   | 3        | 0       | 3319  |
 | Oct 2022   | 2287     | 943    | 122   | 3        | 0       | 3355  |
+| Nov 2022   | 2373     | 980    | 105   | 3        | 0       | 3461  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
