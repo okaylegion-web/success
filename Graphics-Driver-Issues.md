@@ -109,6 +109,11 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None <br>
 » **Fixed** on: NVIDIA Windows 527.37
 
+- **High:** Performance regression on AMD Windows with very high submit and flip latency per frame <br>
+» **Affected** drivers: Radeon Software Adrenalin 23.3.2, 23.4.1, 23.4.2 <br>
+» **Workaround** used: None <br>
+» **Fixed** on: Radeon Software Adrenalin 23.4.3
+
 - **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
 » **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
 » **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
