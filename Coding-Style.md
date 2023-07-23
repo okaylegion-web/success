@@ -43,9 +43,10 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
     * Use `moduleName.todo()` and other associated methods.
     * Use `.todo()` method for unimplemented functions.
     * Use `.error()` method to print error inside of function that may require user's attention. For example, some file is not found or some emulation option is not set correctly.
+    * Use `.succcess()` method for well-implemeneted, rarely-called but common functions.
     * Use `.warning()` method for partially implemented functions which still have some unimplemented functionality.
     * Use `.notice()` method to print debug information unconditionally.
-    * Use `.log()` method for well implemented functions.
+    * Use `.trace()` method for well implemented and often-called functions.
     * Don't return CELL_OK and other error codes if the function result type doesn't mean error code.
 
 ***
