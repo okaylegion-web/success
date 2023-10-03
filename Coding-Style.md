@@ -17,6 +17,7 @@ We recommend to follow these guidelines when writing code for RPCS3. They aren't
 * Ensure that every source file you modify has the newline at the end of file. Every line ends with "newline" and the end of file must have "newline" too, GitHub usually warns about it.
 * Use brackets around multi-term ternary operator conditions especially if they occur with other code on the same line. `(x * y) + ((a > b)? c : d)` is more readable than `x * y + a > b? c : d`.
 * Use `ensure()` and `fmt::throw_exception()` in order to add asserts in your code.
+* Avoid recursive locking, there are always better alternatives.
 
 ***
 ### Emulator coding style
