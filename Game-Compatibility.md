@@ -109,9 +109,13 @@ The following table contains the monthly amount of games per status in our compa
 | Feb 2024   | 2545     | 1047   | 91    | 0        | 0       | 3683  |
 | Mar 2024   | 2555     | 1050   | 89    | 0        | 0       | 3694  |
 | Apr 2024   | 2560     | 1055   | 89    | 0        | 0       | 3704  |
+| May 2024   | 2582     | 1054   | 88    | 0        | 0       | 3726  |
+| May 2024**** | 2526     | 1045   | 88    | 0        | 0       | 3659  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
 _** Different sub-regional entries for the same title under the same media were merged to count as one entry. One thread per Game ID still applies._
 
 _*** Online-only games on Intro, Loadable or Nothing statuses no longer count for the statistics._
+
+_**** From here on, excluding non 'PS3 Game' type entries._
