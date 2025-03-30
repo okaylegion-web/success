@@ -119,6 +119,7 @@ The following table contains the monthly amount of games per status in our compa
 | Nov 2024     | 2541     | 1024   | 85    | 0        | 1       | 3651  |
 | Dec 2024     | 2543     | 1023   | 85    | 0        | 1       | 3652  |
 
+
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
 _** Different sub-regional entries for the same title under the same media were merged to count as one entry. One thread per Game ID still applies._
