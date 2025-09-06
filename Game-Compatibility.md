@@ -125,6 +125,7 @@ The following table contains the monthly amount of games per status in our compa
 | May 2025     | 2524     | 992    | 105   | 2        | 0       | 3623  |
 | Jun 2025     | 2528     | 990    | 105   | 2        | 0       | 3625  |
 | Jul 2025     | 2528     | 990    | 105   | 2        | 0       | 3625  |
+| Aug 2025     | 2518     | 982    | 105   | 2        | 0       | 3607  |
 
 _* Different regional entries for the same title under the same media were merged to count as one entry only on the list. One thread per Game ID still applies._
 
