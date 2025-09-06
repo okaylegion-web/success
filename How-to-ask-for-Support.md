@@ -10,7 +10,7 @@
 * **Check if your drivers are up-to-date.** 
   * Always make sure your GPU drivers are up-to-date before proceeding.
 * **Pack up your log file.** 
-  * DO NOT copy paste or screenshot from the emulator's log window. 
+  * DO NOT send us copy paste or screenshot from the emulator's log window. This will grant you a warning.
   * Use a compressing tool such as [**7-Zip**](http://www.7-zip.org/) to compress the **RPCS3.log** file to a .7z file **after closing the emulator**. 
     * On **Windows** it will be in the `log` folder inside your RPCS3 folder.
     * On **Linux** (yes, that includes SteamOS) it will be in `~/.cache/rpcs3/`.
