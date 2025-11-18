@@ -11,6 +11,21 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 » [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
 
+
+## AMD (Proprietary) <a name="amd-proprietary"/>
+**OpenGL**
+- _No known problems at this time_
+
+**Vulkan**
+- Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
+» **Workaround** implemented: **Yes** (automatic) <br>
+» **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
+
+- [MSAA with sample shading disabled does not work on NAVI when using Vulkan](https://community.amd.com/t5/opengl-vulkan/msaa-with-sample-shading-disabled-does-not-work-on-navi-when/td-p/425122) <br>
+» **Workaround** implemented: **Yes** (automatic) <br>
+» **Note:** Forcefully enabling sampleRateShading for all pipelines and calculating the minimum ratio works around this problem
+
+
 ## Intel (Proprietary) <a name="intel-proprietary"/>
 **OpenGL**
 - [GLSL compiler is very broken](https://github.com/RPCS3/rpcs3/issues/6199) <br>
@@ -28,19 +43,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 - _**Unsupported.** There are likely other issues as well..._
 
-## AMD (Proprietary) <a name="amd-proprietary"/>
-**OpenGL**
-- _No known problems at this time_
-
-**Vulkan**
-- Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
-» **Workaround** implemented: **Yes** (automatic) <br>
-» **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
-
-- [MSAA with sample shading disabled does not work on NAVI when using Vulkan](https://community.amd.com/t5/opengl-vulkan/msaa-with-sample-shading-disabled-does-not-work-on-navi-when/td-p/425122) <br>
-» **Workaround** implemented: **Yes** (automatic) <br>
-» **Note:** Forcefully enabling sampleRateShading for all pipelines and calculating the minimum ratio works around this problem
-
 
 ## NVIDIA (Proprietary) <a name="nvidia-proprietary"/>
 **OpenGL**
@@ -56,11 +58,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - [Unexpectedly slower performance (-25%) when replacing VK_FORMAT_B8G8R8A8_UNORM with VK_FORMAT_R8G8B8A8_UNORM](https://forums.developer.nvidia.com/t/unexpectedly-slower-performance-25-when-replacing-vk-format-b8g8r8a8-unorm-with-vk-format-r8g8b8a8-unorm/158374) <br>
 » **Workaround** used: None <br>
 » **Reported**: **Yes**, on 2020-10-30. No replies. <br>
-
-
-## NVIDIA (Mesa) <a name="amd-mesa"/>
-**Vulkan**
-- _No known problems at this time_
 
 
 ## AMD (Mesa) <a name="amd-mesa"/>
@@ -91,6 +88,11 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426) <br>
 » **Workaround** implemented: **Yes**, an alternative (slower) code path will be used instead <br>
 » **Reported**: **Yes**, on 2020-09-28. <br>
+
+
+## NVIDIA (Mesa) <a name="amd-mesa"/>
+**Vulkan**
+- _No known problems at this time_
 
 ---
 
