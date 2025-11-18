@@ -41,6 +41,10 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Reported**: No <br>
 » **Note**: Intel proprietary Vulkan drivers are unsupported by RPCS3 due to their poor state.
 
+- [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs](https://gitlab.freedesktop.org/mesa/mesa/-/issues/6052) <br>
+» **Workaround** implemented: **Yes**, Anti-Aliasing (MSAA) will be automatically disabled by RPCS3 <br>
+» **Reported**: **Yes**, on 2020-08-03. Feature unsupported by hardware. <br>
+
 - _**Unsupported.** There are likely other issues as well..._
 
 
@@ -81,7 +85,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - **iris** Driver: _No known problems at this time._
 
 **Vulkan**
-- [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs](https://gitlab.freedesktop.org/mesa/mesa/-/issues/3355) <br>
+- [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs](https://gitlab.freedesktop.org/mesa/mesa/-/issues/6052) <br>
 » **Workaround** implemented: **Yes**, Anti-Aliasing (MSAA) will be disabled automatically by RPCS3 <br>
 » **Reported**: **Yes**, on 2020-08-03. Feature unsupported by hardware. <br>
 
