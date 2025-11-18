@@ -4,6 +4,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » [Intel (Proprietary)](#intel-proprietary) <br>
 » [AMD (Proprietary)](#amd-proprietary) <br>
 » [NVIDIA (Proprietary)](#nvidia-proprietary) <br>
+» [NVIDIA (Mesa)](#nvidia-mesa) <br>
 » [AMD (Mesa)](#amd-mesa) <br>
 » [Intel (Mesa)](#intel-mesa) <br>
 » [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
@@ -49,6 +50,11 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - [Unexpectedly slower performance (-25%) when replacing VK_FORMAT_B8G8R8A8_UNORM with VK_FORMAT_R8G8B8A8_UNORM](https://forums.developer.nvidia.com/t/unexpectedly-slower-performance-25-when-replacing-vk-format-b8g8r8a8-unorm-with-vk-format-r8g8b8a8-unorm/158374) <br>
 » **Workaround** used: None <br>
 » **Reported**: **Yes**, on 2020-10-30. No replies. <br>
+
+
+## NVIDIA (Mesa) <a name="amd-mesa"/>
+**Vulkan**
+- _No known problems at this time_
 
 
 ## AMD (Mesa) <a name="amd-mesa"/>
