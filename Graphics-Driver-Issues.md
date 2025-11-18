@@ -15,19 +15,15 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: No <br>
 » **Reported**: No <br>
 » **Note**: Intel proprietary OpenGL drivers are unsupported by RPCS3 due to their poor state.
-
-- _There are likely other issues as well..._
+- _Unsupported. There are likely other issues as well..._
 
 **Vulkan**
-- _No known problems at this time_
+- _Unsupported. There are currently known issues..._
 
 
 ## AMD (Proprietary) <a name="amd-proprietary"/>
 **OpenGL**
-- [glMultiDrawArrays is broken](https://community.amd.com/message/2858799) <br>
-» **Workaround** implemented: **Yes** <br>
-» **Reported**: **Yes**, on 2018-04-25. No replies. <br>
-» **Note**: This seems to be undefined behavior in the spec. The gl_VertexID propagation behavior across MultiDrawArrays is not defined, i.e whether it should continue incrementing of reset to 0 on a new instance. However, due to the comparison with a loop of [first, count] and implied functional equivalence, this may be interpreted as a bug. Either way, RPCS3 provides a workaround using index lookups.
+- _No known problems at this time_
 
 **Vulkan**
 - Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
@@ -108,6 +104,12 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Affected** drivers: NVIDIA Windows 526.XX <br>
 » **Workaround** used: None <br>
 » **Fixed** on: NVIDIA Windows 527.37
+
+- **High:** [glMultiDrawArrays is broken on the old AMD OpenGL Windows driver](https://github.com/RPCS3/rpcs3/issues/17711) <br>
+» **Affected** drivers: Radeon Software Adrenalin 22.6.1 and older <br>
+» **Workaround** implemented: **Yes** - this seems to be undefined behavior in the spec. The gl_VertexID propagation behavior across MultiDrawArrays is not defined, i.e whether it should continue incrementing of reset to 0 on a new instance. However, due to the comparison with a loop of [first, count] and implied functional equivalence, this may be interpreted as a bug. Either way, RPCS3 provides a workaround using index lookups. <br>
+» **Reported**: **Yes**, on 2018-04-25. [No replies.](https://community.amd.com/message/2858799) <br>
+» **Fixed** on: Radeon Software Adrenalin 22.7.1
 
 - **High:** Performance regression on AMD Windows with very high submit and flip latency per frame <br>
 » **Affected** drivers: Radeon Software Adrenalin 23.3.2, 23.4.1, 23.4.2 <br>
