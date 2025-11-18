@@ -1,14 +1,15 @@
 # Graphics Driver Issues
 This page quickly summarizes graphics driver quirks and issues present in GPU drivers by different manufacturers.
 
-» [Intel (Proprietary)](#intel-proprietary) <br>
 » [AMD (Proprietary)](#amd-proprietary) <br>
+» [Intel (Proprietary)](#intel-proprietary) <br>
 » [NVIDIA (Proprietary)](#nvidia-proprietary) <br>
-» [NVIDIA (Mesa)](#nvidia-mesa) <br>
+
 » [AMD (Mesa)](#amd-mesa) <br>
 » [Intel (Mesa)](#intel-mesa) <br>
-» [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
+» [NVIDIA (Mesa)](#nvidia-mesa) <br>
 
+» [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
 
 ## Intel (Proprietary) <a name="intel-proprietary"/>
 **OpenGL**
@@ -16,11 +17,16 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: No <br>
 » **Reported**: No <br>
 » **Note**: Intel proprietary OpenGL drivers are unsupported by RPCS3 due to their poor state.
-- _Unsupported. There are likely other issues as well..._
+
+- _**Unsupported.** There are likely other issues as well..._
 
 **Vulkan**
-- _Unsupported. There are currently known issues..._
+- [Driver crashes with VK_ERROR_FRAGMENTATION](https://github.com/RPCS3/rpcs3/issues/17356) <br>
+» **Workaround** implemented: No <br>
+» **Reported**: No <br>
+» **Note**: Intel proprietary Vulkan drivers are unsupported by RPCS3 due to their poor state.
 
+- _**Unsupported.** There are likely other issues as well..._
 
 ## AMD (Proprietary) <a name="amd-proprietary"/>
 **OpenGL**
