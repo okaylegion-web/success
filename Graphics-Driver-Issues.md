@@ -89,10 +89,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 » **Workaround** implemented: **Yes**, Anti-Aliasing (MSAA) will be disabled automatically by RPCS3 <br>
 » **Reported**: **Yes**, on 2020-08-03. Feature unsupported by hardware. <br>
 
-- [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426) <br>
-» **Workaround** implemented: **Yes**, an alternative (slower) code path will be used instead <br>
-» **Reported**: **Yes**, on 2020-09-28. <br>
-
 
 ## NVIDIA (Mesa) <a name="amd-mesa"/>
 **Vulkan**
@@ -143,6 +139,11 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Affected** drivers: Radeon Software Adrenalin 25.1.1 to 25.10.2 <br>
 » **Workaround** used: None <br>
 » **Fixed** on: Radeon Software Adrenalin 25.11.1
+
+- **Normal:** [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426) <br>
+» **Affected** drivers: Mesa 21.2.3 and older <br>
+» **Workaround** used: **Yes**, an alternative (slower) code path <br>
+» **Fixed** on: Mesa 21.2.4
 
 - **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
 » **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
