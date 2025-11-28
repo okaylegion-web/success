@@ -121,8 +121,7 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 
 - **High:** [glMultiDrawArrays is broken on the old AMD OpenGL Windows driver](https://github.com/RPCS3/rpcs3/issues/17711) <br>
 » **Affected** drivers: Radeon Software Adrenalin 22.6.1 and older <br>
-» **Workaround** implemented: **Yes** - this seems to be undefined behavior in the spec. The gl_VertexID propagation behavior across MultiDrawArrays is not defined, i.e whether it should continue incrementing of reset to 0 on a new instance. However, due to the comparison with a loop of [first, count] and implied functional equivalence, this may be interpreted as a bug. Either way, RPCS3 provides a workaround using index lookups. <br>
-» **Reported**: **Yes**, on 2018-04-25. [No replies.](https://community.amd.com/message/2858799) <br>
+» **Workaround** used: **Yes** - this seems to be undefined behavior in the spec. The gl_VertexID propagation behavior across MultiDrawArrays is not defined, i.e whether it should continue incrementing of reset to 0 on a new instance. However, due to the comparison with a loop of [first, count] and implied functional equivalence, this may be interpreted as a bug. Either way, RPCS3 provides a workaround using index lookups. <br>
 » **Fixed** on: Radeon Software Adrenalin 22.7.1
 
 - **High:** Performance regression on AMD Windows with very high submit and flip latency per frame <br>
@@ -140,32 +139,32 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None <br>
 » **Fixed** on: Radeon Software Adrenalin 25.11.1
 
-- **Normal:** [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426) <br>
+- **Medium:** [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426) <br>
 » **Affected** drivers: Mesa 21.2.3 and older <br>
 » **Workaround** used: **Yes**, an alternative (slower) code path <br>
 » **Fixed** on: Mesa 21.2.4
 
-- **Normal:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
+- **Medium:** [OpenGL's glGetTexImage/glGetTextureImage/glGetTextureImageEXT do not work with immutable textures if pack/unpack byteswap is requested on **any** AMD GPU (Windows)](https://community.amd.com/thread/227876) <br>
 » **Affected** drivers: Radeon Software Adrenalin 19.4.2 and earlier <br>
 » **Workaround** used: [Manually byteswap texel data](https://github.com/RPCS3/rpcs3/commit/f56a6548b0a7a520301372f8e456c7174b514a68#diff-6067ceb43fa31f7dc9558bdf0b776ad8) (now removed) <br>
 » **Fixed** on: Radeon Software Adrenalin 19.4.3
 
-- **Normal:** [Unnecessary implicit subpass dependencies caused performance regression on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2502) <br>
+- **Medium:** [Unnecessary implicit subpass dependencies caused performance regression on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2502) <br>
 » **Affected** drivers: Mesa 20.0.0, 20.0.1 <br>
 » **Workaround** used: [Explicitely injecting null subpass dependencies](https://github.com/RPCS3/rpcs3/pull/7909/commits/943cbb1e39fec9cc02ac6193e9b05482c4a36c92#diff-d0082402e2ea9309446e3dc7818f8394) (now removed) <br>
 » **Fixed** on: Mesa 20.0.2
 
-- **Normal:** [vkGetQueryPoolResults returns incorrect values when VK_QUERY_RESULT_PARTIAL_BIT is set on NVIDIA (Windows)](https://forums.developer.nvidia.com/t/vkgetquerypoolresults-returns-incorrect-values-when-vk-query-result-partial-bit-is-set/110137) <br>
+- **Medium:** [vkGetQueryPoolResults returns incorrect values when VK_QUERY_RESULT_PARTIAL_BIT is set on NVIDIA (Windows)](https://forums.developer.nvidia.com/t/vkgetquerypoolresults-returns-incorrect-values-when-vk-query-result-partial-bit-is-set/110137) <br>
 » **Affected** drivers: NVIDIA GeForce 442.59 and earlier <br>
 » **Workaround** used: [Keeping NVIDIA driver from using partial results](https://github.com/RPCS3/rpcs3/pull/7909/commits/c4f539a9cf43e946364a3931f6e5b8c36457d4b4#diff-c9e6fd1ef5ae3e53670d088d2961e556) (now removed) <br>
 » **Fixed** on: ~NVIDIA GeForce 442.74
 
-- **Normal:** [Missing `shaderStorageImageMultisample` Vulkan feature support on GCN1 GPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2864) <br>
+- **Medium:** [Missing `shaderStorageImageMultisample` Vulkan feature support on GCN1 GPUs (RPCS3 crashes if MSAA is enabled)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2864) <br>
 » **Affected** drivers: Mesa 20.0.8 and older <br>
 » **Workaround** used: None (disable MSAA on affected drivers) <br>
 » **Fixed** on: Mesa 20.1.0
 
-- **Normal:** [Vertex explosion when using ACO shader compiler on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2848) <br> 
+- **Medium:** [Vertex explosion when using ACO shader compiler on AMD RADV (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/-/issues/2848) <br> 
 » **Affected** drivers: Mesa 20.2.1 and older <br>
 » **Workaround** used: None, not possible. Using the older shader compiler instead of ACO, which was the default prior to Mesa 20.2 <br>
 » **Fixed** on: Mesa 20.2.2
