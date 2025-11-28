@@ -71,12 +71,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 **Vulkan**
 - Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
 » **Workaround** implemented: **Yes** (automatic) <br>
-» **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
-
-- ~~[LLVM 8 generates broken code on Mesa](https://bugs.freedesktop.org/show_bug.cgi?id=110970)~~ <br>
-» **Workaround** implemented: No, use newer versions of Mesa that are based on LLVM 9 or above <br>
-» **Reported**: **Yes**, on 2019-06-22. Quick reply. <br>
-» **Note**: This is caused by a dependency (LLVM), and not a bug on the driver's implementation. <br>
+» **Note**: Confirmed, see [eae8f49f@mesa/mesa](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
 
 
 ## Intel (Mesa) <a name="intel-mesa"/>
