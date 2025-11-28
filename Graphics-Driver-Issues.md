@@ -17,10 +17,6 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - _No known problems at this time_
 
 **Vulkan**
-- Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
-» **Workaround** implemented: **Yes** (automatic) <br>
-» **Note**: Confirmed, see [eae8f49f@mesa3d/mesa](https://github.com/mesa3d/mesa/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
-
 - [MSAA with sample shading disabled does not work on NAVI when using Vulkan](https://community.amd.com/t5/opengl-vulkan/msaa-with-sample-shading-disabled-does-not-work-on-navi-when/td-p/425122) <br>
 » **Workaround** implemented: **Yes** (automatic) <br>
 » **Note:** Forcefully enabling sampleRateShading for all pipelines and calculating the minimum ratio works around this problem
@@ -69,9 +65,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 - _No known problems at this time_
 
 **Vulkan**
-- Primitive restart is 'broken', this seems to be a GCN hardware bug as it affects both proprietary and open-source drivers <br>
-» **Workaround** implemented: **Yes** (automatic) <br>
-» **Note**: Confirmed, see [eae8f49f@mesa/mesa](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
+- _No known problems at this time_
 
 
 ## Intel (Mesa) <a name="intel-mesa"/>
@@ -129,10 +123,15 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None <br>
 » **Fixed** on: Radeon Software Adrenalin 24.2.1
 
-- **High:** [Vulkan depth buffer comparison does not work on AMD Windows](https://github.com/RPCS3/rpcs3/issues/17267) <br>
-» **Affected** drivers: Radeon Software Adrenalin 25.1.1 to 25.10.2 <br>
+- **High:** Vulkan depth buffer comparison does not work on AMD Windows <br>
+» **Affected** drivers: TBD <br>
 » **Workaround** used: None <br>
 » **Fixed** on: Radeon Software Adrenalin 25.11.1
+
+- **High:** Primitive restart is broken, this is a GCN hardware bug that affects both proprietary and FOSS drivers <br>
+» **Affected** drivers: Mesa 18.2.3 and older <br>
+» **Workaround** used: **Yes**, [185c2177@rpcs3/rpcs3](https://github.com/RPCS3/rpcs3/pull/4162/commits/185c2177b76c57886efb6daf5c0b155c9f4756e0) (automatic) <br>
+» **Fixed** on: Mesa 18.2.4, [eae8f49f@mesa/mesa](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eae8f49fc65e6e625f5e05d38c3bf1b61b84bd3d)
 
 - **Medium:** [Missing `descriptorBindingUniformBufferUpdateAfterBind` support](https://gitlab.freedesktop.org/mesa/mesa/-/issues/5426) <br>
 » **Affected** drivers: Mesa 21.2.3 and older <br>
