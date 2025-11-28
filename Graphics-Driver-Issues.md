@@ -81,8 +81,8 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 ## Intel (Mesa) <a name="intel-mesa"/>
 **OpenGL**
-- **i965** Driver: **Not supported.** Games won't render properly with it, it's very broken [[1]](https://www.youtube.com/watch?v=SSprkcc6NZM), [[2]](https://www.youtube.com/watch?v=0qjqblFDdFw), [[3]](https://www.youtube.com/watch?v=ZwKmYBMMdvE).
-- **iris** Driver: _No known problems at this time._
+- **crocus** Driver (Legacy hardware): _No known problems at this time._
+- **iris** Driver (Modern hardware): _No known problems at this time._
 
 **Vulkan**
 - [Missing `shaderStorageImageMultisample` Vulkan feature support on Intel iGPUs](https://gitlab.freedesktop.org/mesa/mesa/-/issues/6052) <br>
