@@ -11,6 +11,7 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 » [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
 
+---
 
 ## AMD (Proprietary) <a name="amd-proprietary"/>
 **OpenGL**
@@ -19,7 +20,13 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 **Vulkan**
 - [MSAA with sample shading disabled does not work on NAVI when using Vulkan](https://community.amd.com/t5/opengl-vulkan/msaa-with-sample-shading-disabled-does-not-work-on-navi-when/td-p/425122) <br>
 » **Workaround** implemented: **Yes** (automatic) <br>
+» **Reported**: Yes <br>
 » **Note:** Forcefully enabling sampleRateShading for all pipelines and calculating the minimum ratio works around this problem
+
+- [Regression on amdvlk/adrenalin causing visual corruption and driver crashes on FBO loops](https://github.com/RPCS3/rpcs3/issues/17267) <br>
+» **Workaround** implemented: No <br>
+» **Reported**: Yes <br>
+» **Note:** Disabling the usage of VK_IMAGE_LAYOUT_ATTACHMENT_FEEDBACK_LOOP_OPTIMAL_EXT works around the issue at the cost of violating the Vulkan specification
 
 
 ## Intel (Proprietary) <a name="intel-proprietary"/>
