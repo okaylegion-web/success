@@ -13,6 +13,71 @@ This page quickly summarizes graphics driver quirks and issues present in GPU dr
 
 ---
 
+### Driver compatibility charts
+
+$${\color{red} Unsupported}$$ - The driver supports the hardware, but due to its poor state, we do not support it. <br>
+$${\color{yellow} Legacy}$$ - The driver supports the hardware, has reached end-of-life, but we still have legacy support for it. <br>
+$${\color{green} Supported}$$ - The driver supports the hardware, is actively updated and supported.
+
+#### AMD
+<table>
+<tr>
+  <th>AMD/ATI Radeon</th>
+  <th>orca</th>
+  <th>oglp</th>
+  <th>r600g</th>
+  <th>radeonsi</th>
+  <th>xgl</th>
+  <th>radv</th>
+</tr>
+<tr>
+  <th>HD 5000 to HD 6000</th>
+  <td>$${\color{red} Unsupported}$$</td>
+  <th>$${\color{gray} X}$$</th>
+  <td>$${\color{green} Supported}$$</td>
+  <th>$${\color{gray} X}$$</th>
+  <th>$${\color{gray} X}$$</th>
+  <th>$${\color{gray} X}$$</th>
+</tr>
+<tr>
+  <th>HD 7000</th>
+  <td>$${\color{red} Unsupported}$$</td>
+  <th>$${\color{gray} X}$$</th>
+  <th>$${\color{gray} X}$$</th>
+  <td>$${\color{green} Supported}$$</td>
+  <th>$${\color{yellow} Legacy}$$</th>
+  <th>$${\color{green} Supported}$$</th>
+</tr>
+<tr>
+  <th>RX 200 to RX 300</th>
+  <td>$${\color{red} Unsupported}$$</td>
+  <th>$${\color{gray} X}$$</th>
+  <th>$${\color{gray} X}$$</th>
+  <td>$${\color{green} Supported}$$</td>
+  <th>$${\color{yellow} Legacy}$$</th>
+  <th>$${\color{green} Supported}$$</th>
+</tr>
+<tr>
+  <th>RX 400 to RX 9000</th>
+  <td>$${\color{red} Unsupported}$$</td>
+  <th>$${\color{green} Supported}$$</th>
+  <th>$${\color{gray} X}$$</th>
+  <td>$${\color{green} Supported}$$</td>
+  <th>$${\color{green} Supported}$$</th>
+  <th>$${\color{green} Supported}$$</th>
+</tr>
+</table>
+
+**Glossary:**
+- **orca:** AMD's legacy proprietary OpenGL driver, used on Windows drivers prior to 22.7.1 and older versions of the AMDGPU PRO driver.
+- **oglp:** AMD's modern proprietary OpenGL driver, used on Windows drivers starting on 22.7.1 and newer versions of the AMDGPU PRO driver.
+- **r600g:** mesa's open-source OpenGL driver for pre HD 7000 hardware.
+- **radeonsi:** mesa's open-source OpenGL driver for HD 7000 and newer hardware.
+- **xgl:** AMD's proprietary Vulkan driver, used on Windows drivers and amdvlk (now defunct).
+- **radv:** mesa's open-source Vulkan driver.
+
+---
+
 ## AMD (Proprietary) <a name="amd-proprietary"/>
 **OpenGL**
 - _No known problems at this time_
