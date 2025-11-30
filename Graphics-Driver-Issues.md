@@ -1,25 +1,27 @@
 # Graphics Driver Issues
 This page quickly summarizes graphics driver quirks and issues present in GPU drivers by different manufacturers.
 
-» [AMD (Proprietary)](#amd-proprietary) <br>
-» [Intel (Proprietary)](#intel-proprietary) <br>
-» [NVIDIA (Proprietary)](#nvidia-proprietary) <br>
-
-» [AMD (Mesa)](#amd-mesa) <br>
-» [Intel (Mesa)](#intel-mesa) <br>
-» [NVIDIA (Mesa)](#nvidia-mesa) <br>
-
-» [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
+**Index**
+* [Driver compatibility charts](#driver-compatibility-charts)
+* List of driver issues:
+  * [AMD (Proprietary)](#amd-proprietary)
+  * [Intel (Proprietary)](#intel-proprietary)
+  * [NVIDIA (Proprietary)](#nvidia-proprietary)
+  * [AMD (Mesa)](#amd-mesa)
+  * [Intel (Mesa)](#intel-mesa)
+  * [NVIDIA (Mesa)](#nvidia-mesa)
+* » [**Hall of Fame (List of fixed issues)**](#hall-of-fame)
 
 ---
+<br>
 
-### Driver compatibility charts
+## Driver compatibility charts <a name="driver-compatibility-charts"/>
 
 $${\color{red} Unsupported}$$ - The driver supports the hardware, but due to its poor state, we do not support it. <br>
 $${\color{yellow} Legacy}$$ - The driver supports the hardware, has reached end-of-life, but we still have legacy support for it. <br>
 $${\color{green} Supported}$$ - The driver supports the hardware, is actively updated and supported.
 
-#### AMD
+### AMD
 <table>
 <tr>
   <th>AMD/ATI Radeon</th>
@@ -76,7 +78,47 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 - **xgl:** AMD's proprietary Vulkan driver, used on Windows drivers and amdvlk (now defunct).
 - **radv:** mesa's open-source Vulkan driver.
 
+### NVIDIA
+<table>
+<tr>
+  <th>NVIDIA</th>
+  <th>libgl</th>
+  <th>libvulkan</th>
+  <th>nvk</th>
+</tr>
+<tr>
+  <th>Fermi (400)</th>
+  <td>$${\color{yellow} Legacy}$$</td>
+  <th>$${\color{gray} X}$$</th>
+  <td>$${\color{gray} X}$$</td>
+</tr>
+<tr>
+  <th>Kepler (600/700)</th>
+  <td>$${\color{yellow} Legacy}$$</td>
+  <th>$${\color{gray} X}$$</th>
+  <td>$${\color{gray} X}$$</td>
+</tr>
+<tr>
+  <th>Maxwell/Pascal (700/900/1000)</th>
+  <td>$${\color{yellow} Legacy}$$</td>
+  <th>$${\color{green} Supported}$$</th>
+  <td>$${\color{red} Unsupported}$$</td>
+</tr>
+<tr>
+  <th>Turing and newer (1600 to 5000)</th>
+  <td>$${\color{green} Supported}$$</td>
+  <th>$${\color{green} Supported}$$</th>
+  <td>$${\color{green} Supported}$$</td>
+</tr>
+</table>
+
+**Glossary:**
+- **libgl:** NVIDIA's proprietary OpenGL driver.
+- **libvulkan:** NVIDIA's proprietary Vulkan driver.
+- **nvk:** mesa's open-source Vulkan driver for NVIDIA GPUs.
+
 ---
+<br>
 
 ## AMD (Proprietary) <a name="amd-proprietary"/>
 **OpenGL**
@@ -156,6 +198,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 - _No known problems at this time_
 
 ---
+<br>
 
 # Hall of Fame <a name="hall-of-fame"/>
 List of reported graphics driver bugs that are now fixed. We'd like to thank the developers who fixed these!
