@@ -100,13 +100,13 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
   <th>Kepler (600/700)</th>
   <td>$${\color{yellow} Legacy}$$</td>
   <th>$${\color{gray} X}$$</th>
-  <td>$${\color{gray} X}$$</td>
+  <td>$${\color{red} Unsupported}$$</td>
 </tr>
 <tr>
   <th>Maxwell/Pascal (700/900/1000)</th>
   <td>$${\color{yellow} Legacy}$$</td>
   <th>$${\color{green} Supported}$$</th>
-  <td>$${\color{red} Unsupported}$$</td>
+  <td>$${\color{green} Supported}$$</td>
 </tr>
 <tr>
   <th>Turing and newer (1600 to 5000)</th>
