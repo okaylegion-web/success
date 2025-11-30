@@ -21,6 +21,8 @@ $${\color{red} Unsupported}$$ - The driver supports the hardware, but due to its
 $${\color{yellow} Legacy}$$ - The driver supports the hardware, has reached end-of-life, but we still have legacy support for it. <br>
 $${\color{green} Supported}$$ - The driver supports the hardware, is actively updated and supported.
 
+<br>
+
 ### AMD
 <table>
 <tr>
@@ -77,6 +79,8 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 - **radeonsi:** mesa's open-source OpenGL driver for HD 7000 and newer hardware.
 - **xgl:** AMD's proprietary Vulkan driver, used on Windows drivers and amdvlk (now defunct).
 - **radv:** mesa's open-source Vulkan driver.
+
+<br>
 
 ### NVIDIA
 <table>
