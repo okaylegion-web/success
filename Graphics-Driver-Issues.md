@@ -87,7 +87,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
   <th>nvk</th>
 </tr>
 <tr>
-  <th>Fermi (400)</th>
+  <th>Fermi (400/500)</th>
   <td>$${\color{yellow} Legacy}$$</td>
   <th>$${\color{gray} X}$$</th>
   <td>$${\color{gray} X}$$</td>
