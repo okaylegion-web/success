@@ -26,7 +26,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 ### AMD
 <table>
 <tr>
-  <th>AMD/ATI Radeon</th>
+  <th>ATI/AMD Radeon</th>
   <th>orca</th>
   <th>oglp</th>
   <th>r600g</th>
