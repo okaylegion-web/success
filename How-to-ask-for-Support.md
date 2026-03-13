@@ -14,7 +14,7 @@
 
 ---
 
-| ⚠️ **Do NOT send us copy pasted text or screenshots from the emulator's log/settings window** ⚠️ <br/><br/> ⚠️ **Do NOT send us screenshots from fatal errors that contain a link to this guide** ⚠️ <br/><br/> Doing these will grant you a warning <br/> We need the full log file as described in this guide |
+| ⚠️ **Do NOT send us copy pasted text or screenshots from the emulator's log/settings windows** ⚠️ <br/><br/> ⚠️ **Do NOT send us screenshots from fatal errors that contain a link to this guide** ⚠️ <br/><br/> Doing these will grant you a warning <br/> We need the full log file as described in this guide |
 | --- | 
 
 ---
