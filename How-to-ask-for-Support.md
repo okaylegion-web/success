@@ -14,11 +14,6 @@
 
 ---
 
-| ⚠️ **Do NOT send us copy pasted text or screenshots from the emulator's log/settings windows** ⚠️ <br/><br/> ⚠️ **Do NOT send us screenshots from fatal errors that contain a link to this guide** ⚠️ <br/><br/> Doing these will grant you a warning <br/> We need the full log file as described in this guide |
-| --- | 
-
----
-
 ### Submitting your support request:
 
 Choose one of the following places to ask for support at:
@@ -29,3 +24,8 @@ Choose one of the following places to ask for support at:
 * On **Forums:** 
     * Go to the [**Support section of our forums**](https://forums.rpcs3.net/forum-18.html) and start a new thread describing your issue.
     * Upload the compressed log you obtained on the previous step _as an attachment_, as well as any screenshots in the case of visual issues.
+
+---
+
+| ⚠️ **Do NOT send us copy pasted text or screenshots from the emulator's log/settings windows** ⚠️ <br/><br/> ⚠️ **Do NOT send us screenshots from fatal errors that contain a link to this guide** ⚠️ <br/><br/> Doing these will grant you a warning <br/> We need the full log file as described in this guide |
+| --- | 
