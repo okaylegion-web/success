@@ -183,7 +183,9 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 - _No known problems at this time_
 
 **Vulkan**
-- _No known problems at this time_
+- [Incorrect shader compilation on AMD Adrenalin 26.3.1](https://github.com/RPCS3/rpcs3/issues/18439) <br>
+» **Workaround** used: None <br>
+» **Reported**: **Yes**, on 2026-03-31. <br>
 
 
 ## Intel (Mesa) <a name="intel-mesa"/>
