@@ -249,6 +249,11 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Workaround** used: None <br>
 » **Fixed** on: Radeon Software Adrenalin 25.11.1
 
+- **High:** [Incorrectly rendered shaders on RDNA3 and RDNA4 GPUs](https://github.com/RPCS3/rpcs3/issues/18439) <br>
+» **Affected** drivers: Radeon Software Adrenalin 26.3.1 and older <br>
+» **Workaround** used: None <br>
+» **Fixed** on: Radeon Software Adrenalin 26.6.1
+
 - **High:** Primitive restart is broken, this is a GCN hardware bug that affects both proprietary and FOSS drivers <br>
 » **Affected** drivers: Mesa 18.2.3 and older <br>
 » **Workaround** used: **Yes**, [185c2177@rpcs3/rpcs3](https://github.com/RPCS3/rpcs3/pull/4162/commits/185c2177b76c57886efb6daf5c0b155c9f4756e0) (automatic) <br>
