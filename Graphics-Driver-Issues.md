@@ -35,7 +35,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
   <th>radv</th>
 </tr>
 <tr>
-  <th>HD 5000 to HD 6000</th>
+  <th>HD 2000 to HD 6000</th>
   <td>$${\color{red} Unsupported}$$</td>
   <th>$${\color{gray} X}$$</th>
   <td>$${\color{green} Supported}$$</td>
@@ -75,7 +75,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 **Glossary:**
 - **orca:** AMD's legacy proprietary OpenGL driver, used on Windows drivers prior to 22.7.1 and older versions of the AMDGPU PRO driver.
 - **oglp:** AMD's modern proprietary OpenGL driver, used on Windows drivers starting on 22.7.1 and newer versions of the AMDGPU PRO driver.
-- **r600g:** mesa's open-source OpenGL driver for pre HD 7000 hardware.
+- **r600g:** mesa's open-source OpenGL driver for HD 2000 to HD 6000 hardware.
 - **radeonsi:** mesa's open-source OpenGL driver for HD 7000 and newer hardware.
 - **xgl:** AMD's proprietary Vulkan driver, used on Windows drivers and amdvlk (now defunct).
 - **radv:** mesa's open-source Vulkan driver.
