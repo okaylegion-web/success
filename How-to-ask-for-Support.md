@@ -12,8 +12,6 @@
 
 ### Submitting your support request:
 
-Choose one of the following places to ask for support at:
-
 1. **Pack up your log file.** 
    * Use a compressing tool such as [**7-Zip**](http://www.7-zip.org/) to compress the **RPCS3.log** file to a .7z file **after closing the emulator**. 
       * On **Windows** it will be in the `log` folder inside your RPCS3 folder.
