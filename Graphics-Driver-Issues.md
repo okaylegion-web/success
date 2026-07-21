@@ -29,7 +29,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
   <th>ATI/AMD Radeon</th>
   <th>orca</th>
   <th>oglp</th>
-  <th>r600g</th>
+  <th>r600</th>
   <th>radeonsi</th>
   <th>xgl</th>
   <th>radv</th>
@@ -75,7 +75,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 **Glossary:**
 - **orca:** AMD's legacy proprietary OpenGL driver, used on Windows drivers prior to 22.7.1 and older versions of the AMDGPU PRO driver.
 - **oglp:** AMD's modern proprietary OpenGL driver, used on Windows drivers starting on 22.7.1 and newer versions of the AMDGPU PRO driver.
-- **r600g:** mesa's open-source OpenGL driver for HD 2000 to HD 6000 hardware.
+- **r600:** mesa's open-source OpenGL driver for HD 2000 to HD 6000 hardware.
 - **radeonsi:** mesa's open-source OpenGL driver for HD 7000 and newer hardware.
 - **xgl:** AMD's proprietary Vulkan driver, used on Windows drivers and amdvlk (now defunct).
 - **radv:** mesa's open-source Vulkan driver.
