@@ -175,7 +175,7 @@ $${\color{green} Supported}$$ - The driver supports the hardware, is actively up
 
 - [Unexpectedly slower performance (-25%) when replacing VK_FORMAT_B8G8R8A8_UNORM with VK_FORMAT_R8G8B8A8_UNORM](https://forums.developer.nvidia.com/t/unexpectedly-slower-performance-25-when-replacing-vk-format-b8g8r8a8-unorm-with-vk-format-r8g8b8a8-unorm/158374) <br>
 » **Workaround** used: None <br>
-» **Reported**: **Yes**, on 2020-10-30. No replies. <br>
+» **Reported**: **Yes**, on 2020-10-30. <br>
 
 
 ## AMD (Mesa) <a name="amd-mesa"/>
@@ -213,6 +213,11 @@ List of reported graphics driver bugs that are now fixed. We'd like to thank the
 » **Affected** drivers: Radeon Software Adrenalin 19.12.1, 19.12.2, 19.12.3, 20.1.1, 20.1.2, 20.1.3 <br>
 » **Workaround** used: None, not possible <br>
 » **Fixed** on: Radeon Software Adrenalin 20.1.4
+
+- **High:** NVIDIA Overlay crashes RPCS3 when using Vulkan <br>
+» **Affected** drivers: NVIDIA Windows 610.74 <br>
+» **Workaround** used: None <br>
+» **Fixed** on: NVIDIA Windows 610.88
 
 - **High:** [AMD RADV driver crash when using ACO due to unusual control flow (Mesa)](https://gitlab.freedesktop.org/mesa/mesa/issues/2557) <br>
 » **Affected** drivers: Mesa 20.0.2 and earlier <br>
