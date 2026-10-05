@@ -1,9 +1,9 @@
 ## Welcome to RPCS3, the world's first open-source PlayStation 3 emulator.
 
 ### Before starting your support request:
-1. **Read the [Quickstart Guide](https://rpcs3.net/quickstart#software_redist).** In this guide you will be able to:
-   * Check the **[hardware requirements](https://rpcs3.net/quickstart#supported_devices_pcs)**;
-   * Install the **[software requirements](https://rpcs3.net/quickstart#software_redist)**.
+1. **Read the [Quickstart Guide](https://rpcs3.net/quickstart).** In this guide you will be able to:
+   * Check the **[hardware requirements](https://rpcs3.net/requirements)**;
+   * Install the **[software requirements](https://rpcs3.net/quickstart#download_rpcs3)**.
 2. **Ensure that you're using the [latest official RPCS3 build from our website](https://rpcs3.net/download).**
    * No support is provided for custom, outdated or unofficial RPCS3 builds.
 3. **Ensure that your GPU drivers are up-to-date.**
@@ -12,7 +12,7 @@
 
 ### Submitting your support request:
 1. **Pack up your log file.** 
-   * Use a compressing tool such as [**7-Zip**](http://www.7-zip.org/) to compress the **RPCS3.log** uncompressed file to a .7z compressed file **after closing the emulator**. 
+   * Use a compressing tool such as [**7-Zip**](https://www.7-zip.org/) to compress the **RPCS3.log** uncompressed file to a .7z compressed file **after closing the emulator**. 
       * On **Windows** it will be in the `log` folder inside your RPCS3 folder.
       * On **Linux** (yes, that includes SteamOS) it will be in `~/.cache/rpcs3/`.
       * On **macOS** it will be in `~/Library/Caches/rpcs3/`.
