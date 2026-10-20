@@ -15,9 +15,11 @@ If you're a developer of any of these pieces of software, and you'd like to reac
 | ffmpeg | [ffmpeg.org/legal.html](https://ffmpeg.org/legal.html) | LGPL v2.1 or later |
 | fusion | [github.com/xioTechnologies/Fusion/blob/main/LICENSE.md](https://github.com/xioTechnologies/Fusion/blob/main/LICENSE.md) | MIT |
 | gamemode | [github.com/FeralInteractive/gamemode/blob/master/LICENSE.txt](https://github.com/FeralInteractive/gamemode/blob/master/LICENSE.txt) | BSD 3-Clause |
+| glew | [github.com/nigels-com/glew/blob/master/LICENSE.txt](https://github.com/nigels-com/glew/blob/master/LICENSE.txt) | glew |
 | glext | [registry.khronos.org/OpenGL/api/GL/glext.h](https://registry.khronos.org/OpenGL/api/GL/glext.h) | MIT |
 | glslang | [github.com/KhronosGroup/glslang/blob/main/LICENSE.txt](https://github.com/KhronosGroup/glslang/blob/main/LICENSE.txt) | BSD 3-Clause |
 | hidapi | [https://github.com/libusb/hidapi/blob/master/LICENSE-orig.txt](https://github.com/libusb/hidapi/blob/master/LICENSE-orig.txt) | hidapi |
+| libevdev | [gitlab.freedesktop.org/libevdev/libevdev/-/blob/master/COPYING](https://gitlab.freedesktop.org/libevdev/libevdev/-/blob/master/COPYING) | MIT |
 | libpng | [libpng.org/pub/png/src/libpng-LICENSE.txt](https://libpng.org/pub/png/src/libpng-LICENSE.txt) | libpng-2.0 |
 | libusb | [github.com/libusb/libusb/blob/master/COPYING](https://github.com/libusb/libusb/blob/master/COPYING) | LGPL v2.1 |
 | llvm | [github.com/llvm/llvm-project/blob/main/LICENSE.TXT](https://github.com/llvm/llvm-project/blob/main/LICENSE.TXT) | Apache 2.0 with LLVM Exception |
@@ -28,6 +30,7 @@ If you're a developer of any of these pieces of software, and you'd like to reac
 | pine | [github.com/RPCS3/rpcs3/blob/master/3rdparty/pine/pine_server.h#L3](https://github.com/RPCS3/rpcs3/blob/master/3rdparty/pine/pine_server.h#L3) | GPL v2 or later |
 | protobuf | [github.com/protocolbuffers/protobuf/blob/main/LICENSE](https://github.com/protocolbuffers/protobuf/blob/main/LICENSE) | BSD 3-Clause |
 | pugixml | [github.com/zeux/pugixml/tree/master](https://github.com/zeux/pugixml/tree/master) | MIT |
+| Qt | [doc.qt.io/qt-6/licensing.html](https://doc.qt.io/qt-6/licensing.html) | LGPL v3 |
 | RtMidi | [github.com/thestk/rtmidi/tree/master](https://github.com/thestk/rtmidi/tree/master) | RtMidi |
 | SDL | [github.com/libsdl-org/SDL/blob/main/LICENSE.txt](https://github.com/libsdl-org/SDL/blob/main/LICENSE.txt) | zlib |
 | soundtouch | [github.com/RPCS3/soundtouch/blob/master/COPYING.TXT](https://github.com/RPCS3/soundtouch/blob/master/COPYING.TXT) | LGPL v2.1 
