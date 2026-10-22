@@ -26,7 +26,6 @@ If you're a developer of any of these pieces of software, and you'd like to reac
 | miniupnp | [github.com/miniupnp/miniupnp/blob/master/LICENSE](https://github.com/miniupnp/miniupnp/blob/master/LICENSE) | BSD 3-Clause |
 | MoltenVK | [github.com/KhronosGroup/MoltenVK](https://github.com/KhronosGroup/MoltenVK) | Apache 2.0 |
 | openal-soft | [github.com/kcat/openal-soft/blob/master/COPYING](https://github.com/kcat/openal-soft/blob/master/COPYING) | GPL v2 |
-| opencv | [opencv.org/license](https://opencv.org/license) | Apache 2.0 |
 | pine | [github.com/RPCS3/rpcs3/blob/master/3rdparty/pine/pine_server.h#L3](https://github.com/RPCS3/rpcs3/blob/master/3rdparty/pine/pine_server.h#L3) | GPL v2 or later |
 | protobuf | [github.com/protocolbuffers/protobuf/blob/main/LICENSE](https://github.com/protocolbuffers/protobuf/blob/main/LICENSE) | BSD 3-Clause |
 | pugixml | [github.com/zeux/pugixml/tree/master](https://github.com/zeux/pugixml/tree/master) | MIT |
